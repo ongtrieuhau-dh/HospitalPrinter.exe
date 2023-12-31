@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<DOCUMENT Type="Advanced Installer" CreateVersion="21.3" version="21.3" Modules="simple" RootPath="." Language="en" Id="{0AA726F1-0097-418C-99B0-148F7D4F27DA}">
+<DOCUMENT Type="Advanced Installer" CreateVersion="21.3" version="21.3" Modules="simple" RootPath="." Language="en" Id="{F6B18710-AF0A-423E-97F1-BAAFE2F85592}">
   <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
     <ROW Name="HiddenItems" Value="AppXProductDetailsComponent;AppXDependenciesComponent;AppXAppDetailsComponent;AppXVisualAssetsComponent;AppXCapabilitiesComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent;FixupComponent;MsiXDiffComponent;MsixManifestEditorComponent"/>
   </COMPONENT>
@@ -8,12 +8,12 @@
     <ROW Property="ALLUSERS" Value="1"/>
     <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
     <ROW Property="Manufacturer" Value="Your Company"/>
-    <ROW Property="ProductCode" Value="1033:{724131B7-693D-407E-B2DF-59816944C38D} " Type="16"/>
+    <ROW Property="ProductCode" Value="1033:{4B2F0AF3-3A67-4B5F-93BE-4B47AD3FE595} " Type="16"/>
     <ROW Property="ProductLanguage" Value="1033"/>
     <ROW Property="ProductName" Value="Your Application"/>
     <ROW Property="ProductVersion" Value="1.0.0" Options="32"/>
     <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
-    <ROW Property="UpgradeCode" Value="{A5B65D29-D168-4DF2-B377-4333BA9D3DEC}"/>
+    <ROW Property="UpgradeCode" Value="{2D5750B0-199D-4A03-A896-EF30A70D0922}"/>
     <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
     <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
     <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
@@ -30,8 +30,8 @@
     <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
-    <ROW Component="APPDIR" ComponentId="{AEB5B35D-2EA6-4848-B38E-5A0FF40D3A8E}" Directory_="APPDIR" Attributes="0"/>
-    <ROW Component="ProductInformation" ComponentId="{4C681938-0C74-40AB-9F38-BCD5EB69AEA2}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="APPDIR" ComponentId="{410E27B1-1C84-4718-86C3-4A4AAF17CACD}" Directory_="APPDIR" Attributes="0"/>
+    <ROW Component="ProductInformation" ComponentId="{0F9D29C6-4766-4AA6-AD12-861769D2BBB7}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
     <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
