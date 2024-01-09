@@ -5,5 +5,6 @@ HospitalPrinter.exe.xml
 .build-tools*
 .build-tools
 list_id_drive_app.txt
+list_id_drive_2app.txt
 Log-*
 .azure/push.sh
